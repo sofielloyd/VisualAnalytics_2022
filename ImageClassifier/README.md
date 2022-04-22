@@ -5,8 +5,9 @@ of my tilvalg in Cultural Data Science at Aarhus University.
 This repository is in active development, with new material being pushed on regularly from now and until **19th may 2022**.
 
 ## Assignment description 
-Take the classifier pipelines we covered in lecture 7 and turn them into *two separate ```.py``` scripts*. 
-Your code should do the following:
+Take the classifier pipelines we covered in lecture 7 and turn them into *two separate ```.py``` scripts*.  
+
+My code should do the following:
 
 - One script should be called ```logistic_regression.py``` and should do the following:
   - Load either the **MNIST_784** data or the **CIFAR_10** data
