@@ -7,7 +7,7 @@ This repository is in active development, with new material being pushed on regu
 ## Assignment description 
 In this assignment, I'll be working with the CIFAR10 dataset and build a classifier using transfer learning with a pretrained CNN like VGG16 for feature extraction. 
 
-Your ```.py``` script should minimally do the following:
+My ```.py``` script should do the following:
 
 - Load the CIFAR10 dataset
 - Use VGG16 to perform feature extraction
