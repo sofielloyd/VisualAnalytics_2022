@@ -13,3 +13,4 @@ This repository has the following directory structure:
 | ----------- | ----------- |
 | ```ImageSearch``` | Contains code for assignment 1 |
 | ```ImageClassifier``` | Contains code for assignment 2 |
+| ```Transfer_learning_CNN_classification``` | Contains code for assignment 3 |
