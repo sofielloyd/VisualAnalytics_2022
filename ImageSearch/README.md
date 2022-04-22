@@ -5,8 +5,9 @@ of my tilvalg in Cultural Data Science at Aarhus University.
 This repository is in active development, with new material being pushed on regularly from now and until **19th may 2022**.
 
 ## Assignment description 
-Write a small Python program to compare image histograms quantitively using Open-CV and the other image processing tools you've already encountered. 
-Your script should do the following:
+Write a small Python program to compare image histograms quantitively using Open-CV and the other image processing tools you've already encountered.  
+
+My script should do the following:
 - Take a user-defined image from the folder
 - Calculate the "distance" between the colour histogram of that image and all of the others.
 - Find which 3 image are most "similar" to the target image.
