@@ -43,7 +43,7 @@ This repository has the following directory structure:
 | ```utils``` | Additional Python functions |
 
 
-- The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. The input data that I have used for the given code is described in the specific assignmentfolder.
+- The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. **CHANGE THIS** *The input data that I have used for the given code is described in the specific assignmentfolder.*
 
 - The ```output``` folders contains my results and it is this folder that you should save you own results when replicating the code. 
 
