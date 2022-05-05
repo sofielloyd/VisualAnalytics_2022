@@ -28,7 +28,7 @@ My ```.py``` script does the following:
 ## Usage  
  
  
-## Discussin of results 
+## Discussion of results 
 
 
 
