@@ -39,6 +39,7 @@ This repository has the following directory structure:
 | ```input``` | Input data |
 | ```output``` | Output data |
 | ```src``` | Python scripts |
+| ```utils``` | Additional Python functions |
 
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. The input data that I have used for the given code is described in the specific assignmentfolder.
