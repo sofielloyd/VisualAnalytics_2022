@@ -23,6 +23,7 @@ My ```.py``` script does the following:
 - The code will provide a basic outline of a classification pipeline using transfer learning which can be adapted and modified for future tasks.  
 
 ## Methods  
+*This section may contain the same as in the "Goals and outcome of the assignment" section? Maybe I should delete that section and re-write it into this section?* 
 
 
 ## Usage    
