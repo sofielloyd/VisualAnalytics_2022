@@ -11,12 +11,12 @@ Take the classifier pipelines we covered in lecture 7 and turn them into *two se
 My ```.py```script does the following:
 
 - Make one script should be called ```logistic_regression.py```.
-  - Load either the **MNIST_784** data or the **CIFAR_10** data.
+  - Load either the **CIFAR_10** data.
   - Train a Logistic Regression model using ```scikit-learn```.
   - Print the classification report to the terminal **and** save the classification report to ```output/lr_report.txt```.  
  
 - Make another scripts should be called ```nn_classifier.py```. 
-  - Load either the **MNIST_784** data or the **CIFAR_10** data.
+  - Load either the **CIFAR_10** data.
   - Train a Neural Network model using the premade module in ```neuralnetwork.py```.
   - Print output to the terminal during training showing epochs and loss.
   - Print the classification report to the terminal **and** save the classification report to ```output/nn_report.txt```.
