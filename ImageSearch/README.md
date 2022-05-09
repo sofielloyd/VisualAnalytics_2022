@@ -1,6 +1,5 @@
 # Image Search - Assignment 1
-This repository contains all of the code and data related to the first assignment for my portfolio exam in the Spring 2022 module **Visual Analytics** which is a part 
-of my tilvalg in Cultural Data Science at Aarhus University.  
+This repository contains all of the code and data related to the first assignment for my portfolio exam in the Spring 2022 module **Visual Analytics** which is a part of my tilvalg in Cultural Data Science at Aarhus University.  
 
 This repository is in active development, with new material being pushed on regularly from now and until **19th may 2022**.
 
@@ -27,8 +26,9 @@ from image data.
 
 
 ## Usage
-In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.
-The script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py```.
+In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder. 
+I have used the **flower dataset** which can be found [here] (https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
+The script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d "../input"``` for running the script on the whole input folder. 
 
 **Follow up on this** *You'll also have to  install the dependencies from a requirements.txt*
 
