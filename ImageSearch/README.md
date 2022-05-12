@@ -33,10 +33,9 @@ I have used the **flower dataset** which can be found [here](https://www.robots.
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
-I have made two scripts for this assignment. 
-1. The ```compare_images.py``` can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/compare_images.py```.   
+The ```compare_images.py``` can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/compare_images.py```.   
 
-2. The ```image_search.py``` can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d *path to directory*``` for running the script on a directory.   
+The ```image_search.py``` can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d *path to directory*``` for running the script on a directory.   
 If you use the input folder, then the path to directory should be  ```"../input"```.
  
 
