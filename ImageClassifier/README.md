@@ -2,9 +2,6 @@
 This repository contains all of the code and data related to the second assignment for my portfolio exam in the Spring 2022 module **Visual Analytics** which is a part 
 of my tilvalg in Cultural Data Science at Aarhus University.  
 
-This repository is in active development, with new material being pushed on regularly from now and until **19th may 2022**.
-
-
 ## Assignment description 
 Take the classifier pipelines we covered in lecture 7 and turn them into *two separate ```.py``` scripts*.  
 
