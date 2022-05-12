@@ -10,7 +10,7 @@ This repository is in active development, with new material being pushed on regu
 
 
 ## Usage
-Every folder in this repository is structred with the following sub-folders; ```input```, ```output```, ```src```, ```utils```, and a ```README.md``` which gives a further description of the assignment and the current folder.  
+Every folder in this repository is structred with the following sub-folders; ```input```, ```output```, ```src```, ```utils```. Furthermore, the folders contains a ```README.md``` which gives a further description of the assignment and the current folder, and a ```requirements.txt``` which contain a list of what should be install in order to run the scripts.  
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. The input data that I have used for the given code is described in the ```README.md```.
 
