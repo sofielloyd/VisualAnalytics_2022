@@ -27,11 +27,11 @@ from image data.
 
 ## Usage
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder. 
-I have used the **flower dataset** which can be found **[here]**(https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)  
+I have used the **flower dataset** which can be found **here**(https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)  
 
 The script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d "../input"``` for running the script on the whole input folder. 
 
-**Follow up on this** *You'll also have to  install the dependencies from a requirements.txt*
+Furthermore, the folders contains a ```README.md``` which gives a further description of the assignment and the current folder, and a ```requirements.txt``` which contain a list of what should be install in order to run the scripts.  
 
 ### Repo Structure  
 This repository has the following directory structure:  
