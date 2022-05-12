@@ -19,7 +19,7 @@ My ```.py```script does the following:
   - Print the classification report to the terminal **and** save the classification report to ```output/nn_report.txt```.
 
 
-## Goal and outcome of the assignment
+### Goal and outcome of the assignment
 - The goal of this assignment is to demonstrate that I know how to create ```.py``` scripts with simple classifiers that can act as benchmarks for future reasearch.
 - The code will provide a couple of scripts which could be re-written and reused on separate data.
 
