@@ -29,6 +29,5 @@ This repository has the following directory structure:
 | ```ImageClassifier``` | Contains code for assignment 2 | ```input```, ```output```, ```src```, ```utils``` |
 | ```ImageSearch``` | Contains code for assignment 1 | ```input```, ```output```, ```src```, ```utils``` |
 | ```Transfer_learning_CNN_classification``` | Contains code for assignment 3 | ```input```, ```output```, ```src```, ```utils``` |
-| ```X``` | Contains code for self-assigned project | ```input```, ```output```, ```src```, ```utils``` |
+| ```yoga_poses_classfier``` | Contains code for self-assigned project | ```input```, ```output```, ```src```, ```utils``` |
 
-*The ```X``` folder isn't created yet, but will be so before 19th may 2022.*
