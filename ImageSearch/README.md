@@ -20,7 +20,11 @@ from image data.
 
 
 ## Methods  
+The ```compare_images.py``` uses ```Open-CV``` to compare the color histogram of three images. I have used the ```cv2.HISTCMP_CHISQR``` function that calculates the Chi-Squared distance between two histograms.
 
+The ```image_search.py``` makes image embeddings using ```NearestNeighbors``` from ```scikit-learn```. I have used the ```distances, indices = neighbors.kneighbors()``` which calulates the cosine distance to find the image (or image embeddings) which are closest to the target image. 
+I have added a parser for this script and made it possible for the user to enter either a *single filename* or a *directory* on the command line.   
+This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d *path to directory*``` for running the script on a directory.   
 
 
 ## Usage
@@ -30,12 +34,9 @@ I have used the **flower dataset** which can be found [here](https://www.robots.
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
 I have made two scripts for this assignment. 
-1. The first one is the ```compare_images.py``` which is a simple script using ```Open-CV``` to compare the color histogram of three images.  
-This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/compare_images.py```.   
+1. The ```compare_images.py``` can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/compare_images.py```.   
 
-2. The second script is ```image_search.py``` which is a script that makes image embedding using ```NearestNeighbors``` from ```scikit-learn```.   
-I have added a parser for this script and made it possible for the user to enter either a *single filename* or a *directory* on the command line.   
-This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d *path to directory*``` for running the script on a directory.   
+2. The ```image_search.py``` can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d *path to directory*``` for running the script on a directory.   
 If you use the input folder, then the path to directory should be  ```"../input"```.
  
 
@@ -56,7 +57,7 @@ This repository has the following directory structure:
 
 - The ```src``` folders contains the code written in ```.py``` scripts. 
 
-- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier. Scripts in this folder are written by @rdkm89 and can also be found in [this](https://github.com/CDS-AU-DK/cds-visual.git) repository
+- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier. The utils scripts used in this project were developed in-class and can also be found in [this](https://github.com/CDS-AU-DK/cds-visual.git) repository.
 
 
 ## Discussion of results 
