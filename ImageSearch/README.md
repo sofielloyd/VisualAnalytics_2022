@@ -71,7 +71,7 @@ The filenames for these output files is ```*filename*_similar_images.csv```, ```
 The file is called ```similar_images.csv```.
 - These results will be saved to the ```output``` folder.  
 
-### Futher development 
+### Further development 
 An improvement of this code could be to save the images as one image with the target image and the three similar images.  
 Another improvement could be to save the distance score from the ```kneighbors``` function in the ```similar_images.csv``` with the filenames, like this: 
 
