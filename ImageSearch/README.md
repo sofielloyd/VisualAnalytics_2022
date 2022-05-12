@@ -56,7 +56,7 @@ This repository has the following directory structure:
 
 - The ```src``` folders contains the code written in ```.py``` scripts. 
 
-- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier. 
+- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier. Scripts in this folder are written by @rdkm89 and can also be found in [this](https://github.com/CDS-AU-DK/cds-visual.git) repository
 
 
 ## Discussion of results 
