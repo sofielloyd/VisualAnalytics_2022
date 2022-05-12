@@ -22,7 +22,7 @@ from image data.
 ## Methods  
 The ```compare_images.py``` uses ```Open-CV``` to compare the color histogram of three images. I have used the ```cv2.HISTCMP_CHISQR``` function that calculates the Chi-Squared distance between two histograms.
 
-The ```image_search.py``` makes image embeddings using ```NearestNeighbors``` from ```scikit-learn```. I have used the ```distances, indices = neighbors.kneighbors()``` which calulates the cosine distance to find the image (or image embeddings) which are closest to the target image. 
+The ```image_search.py``` makes image embeddings using ```NearestNeighbors``` from ```scikit-learn```. I have used the ```distances, indices = neighbors.kneighbors()``` which calulates the cosine distance to find the image (or image embeddings) which are closest to the target image.  
 I have added a parser for this script and made it possible for the user to enter either a *single filename* or a *directory* on the command line.   
 This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d *path to directory*``` for running the script on a directory.   
 
