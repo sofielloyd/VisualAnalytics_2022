@@ -27,13 +27,19 @@ from image data.
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder. 
 I have used the **flower dataset** which can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/).  
 
+You'll also have to install the needed packages, which can be found in ``requirements.txt```. 
+
 I have made two scripts for this assignment. 
 1. The first one is the ```compare_images.py``` which is a simple script using ```Open-CV``` to compare the color histogram of three images.  
-The outcome of this scripts is the results of the three scores. This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/compare_images.py```
+This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/compare_images.py```.  
+The output of this script is the results of the three scores.  
 
-2. The second script is ```image_search.py``` which is a script that makes image embedding using ```NearestNeighbors``` from ```scikit-learn```. I have added a parser for this script and made it possible for the user to enter either a *single filename* or a *directory* on the command line. This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d "../input"``` for running the script on the whole input folder. 
-
-Furthermore, the folders contains a ```README.md``` which gives a further description of the assignment and the current folder, and a ```requirements.txt``` which contain a list of what should be install in order to run the scripts.  
+2. The second script is ```image_search.py``` which is a script that makes image embedding using ```NearestNeighbors``` from ```scikit-learn```. 
+I have added a parser for this script and made it possible for the user to enter either a *single filename* or a *directory* on the command line. This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d "../input"``` for running the script on the whole input folder.  
+If the user runs the code for a single file, the output of this script will be a ```.csv``` file with the filename of the targetimage and the three most similar images, and two images; one with the target image and one with the three most similar images.  
+If the user runs the code for the whole directory, the output of this script will be a ```.csv``` file with every filename and the three most similar images to every images. 
+These results can be found in the ```output``` folder. 
+ 
 
 ### Repo Structure  
 This repository has the following directory structure:  
