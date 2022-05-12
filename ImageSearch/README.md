@@ -33,8 +33,9 @@ I have made two scripts for this assignment.
 1. The first one is the ```compare_images.py``` which is a simple script using ```Open-CV``` to compare the color histogram of three images.  
 This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/compare_images.py```.   
 
-2. The second script is ```image_search.py``` which is a script that makes image embedding using ```NearestNeighbors``` from ```scikit-learn```. 
-I have added a parser for this script and made it possible for the user to enter either a *single filename* or a *directory* on the command line. This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d "../input"``` for running the script on the whole input folder.  
+2. The second script is ```image_search.py``` which is a script that makes image embedding using ```NearestNeighbors``` from ```scikit-learn```.   
+I have added a parser for this script and made it possible for the user to enter either a *single filename* or a *directory* on the command line.   
+This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d "../input"``` for running the script on the whole input folder.  
  
 
 ### Repo Structure  
