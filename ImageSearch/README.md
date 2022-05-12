@@ -60,10 +60,10 @@ This repository has the following directory structure:
 
 
 ## Discussion of results 
-**Results for ```compare_images.py```:**
+### Results for ```compare_images.py```
 - The output of this script is the results of the three scores.   
 
-**Results for ```image_search.py```:**
+### Results for ```image_search.py```
 - If the user runs the code for a single file, the output of this script will be a ```.csv``` file with the filename of the targetimage and the three most similar images, and two images; one with the target image and one with the three most similar images.    
 The filenames for these output files is ```*filename*_similar_images.csv```, ```*filename*_similar_images.png``` and ```*filename*_target_image.png```.   
 
@@ -71,4 +71,4 @@ The filenames for these output files is ```*filename*_similar_images.csv```, ```
 The file is called ```similar_images.csv```.
 - These results will be saved to the ```output``` folder.  
 
-
+### Futher development 
