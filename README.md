@@ -14,11 +14,11 @@ Every folder in this repository is structred with the following sub-folders; ```
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. The input data that I have used for the given code is described in the ```README.md```.
 
-- The ```output``` folders contains my results and it is this folder that you should save you own results when replicating the code. 
+- The ```output``` folders contains my results and it is this folder that you should save your own results when replicating the code. 
 
 - The ```src``` folders contains the code written in ```.py``` scripts. 
 
-- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier.
+- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier. These scripts are written by @rdkm89
 
 
 ## Repo Structure  
