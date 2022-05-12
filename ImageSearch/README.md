@@ -1,8 +1,6 @@
 # Image Search - Assignment 1
 This repository contains all of the code and data related to the first assignment for my portfolio exam in the Spring 2022 module **Visual Analytics** which is a part of my tilvalg in Cultural Data Science at Aarhus University.  
 
-This repository is in active development, with new material being pushed on regularly from now and until **19th may 2022**.
-
 
 ## Assignment description 
 Write a small Python program to compare image histograms quantitively using ```Open-CV``` and the other image processing tools.
@@ -18,17 +16,19 @@ My ```.py```script should do the following:
 ### Goal and outcome of the assignment 
 - The goal of this assignment is to demonstrate that I have a good understanding of how to use simple image processing techniques to extract valuable information 
 from image data.
-- The code will provide a simple tool for performing image search on a dataset of images, finding which images are most similar to one another
+- The code will provide a simple tool for performing image search on a dataset of images, finding which images are most similar to one another.
 
 
 ## Methods  
-*This section may contain the same as in the "Goals and outcome of the assignment" section? Maybe I should delete that section and re-write it into this section?* 
+
 
 
 ## Usage
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder. 
-I have used the **flower dataset** which can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/)  
+I have used the **flower dataset** which can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/).  
 
+I have made two scripts for this assignment. 
+The first one is the ``
 The script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d "../input"``` for running the script on the whole input folder. 
 
 Furthermore, the folders contains a ```README.md``` which gives a further description of the assignment and the current folder, and a ```requirements.txt``` which contain a list of what should be install in order to run the scripts.  
