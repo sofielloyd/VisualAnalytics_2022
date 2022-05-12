@@ -27,7 +27,7 @@ from image data.
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
 I have used the **flower dataset** which can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/).  
 
-You'll also have to install the needed packages, which can be found in ``requirements.txt```. 
+You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
 I have made two scripts for this assignment. 
 1. The first one is the ```compare_images.py``` which is a simple script using ```Open-CV``` to compare the color histogram of three images.  
