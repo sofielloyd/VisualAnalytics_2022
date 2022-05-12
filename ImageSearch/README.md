@@ -76,5 +76,5 @@ An improvement of this code could be to save the images as one image with the ta
 Another improvement could be to save the distance score from ```kneighbors``` in the ```similar_images.csv``` with the filenames, like this: 
 
 | **Target_image** | **First_similar** | **First_similar_distance** | **Second_similar** | **Second_similar_distance** | **Third_similar** | **Third_similar_distance** |
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- || ----------- | 
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
 | filename.jpg | filename.jpg | distance score |  filename.jpg | distance score | filename.jpg | distance score |
