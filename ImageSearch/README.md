@@ -69,4 +69,6 @@ The filenames for these output files is ```*filename*_similar_images.csv```, ```
 
 - If the user runs the code for the whole directory, the output of this script will be a ```.csv``` file with every filename and the three most similar images to every images.   
 The file is called ```similar_images.csv```.
-- These results will be saved to the ```output``` folder. 
+- These results will be saved to the ```output``` folder.  
+
+
