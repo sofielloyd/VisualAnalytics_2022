@@ -24,7 +24,7 @@ from image data.
 
 
 ## Usage
-In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder. 
+In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
 I have used the **flower dataset** which can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/).  
 
 You'll also have to install the needed packages, which can be found in ``requirements.txt```. 
