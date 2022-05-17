@@ -25,7 +25,7 @@ I have used the **Yoga Poses Dataset** found on Kaggle. The dataset can be found
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```.    
 
-The scripts can be run from the command line by changing the directory to ```src``` and then execute ```python yoga_poses.py```.
+The script can be run from the command line by changing the directory to ```src``` and then execute ```python yoga_poses.py```.
 
 
 ### Repo Structure  
