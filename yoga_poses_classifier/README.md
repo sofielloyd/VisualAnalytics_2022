@@ -21,7 +21,8 @@ due to the stochastic nature of neural networks, running the model may result in
 
 ## Usage    
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.  
-I have used the **Yoga Poses Dataset** found on Kaggle. The dataset can be found [here](https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset). However, I have merged the *TEST* and *TRAIN* directory into one directory called *dataset*. 
+I have used the **Yoga Poses Dataset** found on Kaggle. The dataset can be found [here](https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset).   
+However, I have merged the *TEST* and *TRAIN* directory into one directory called *dataset*. 
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```.    
 
