@@ -3,15 +3,16 @@ This repository contains all of the code and data related to my self-assigned pr
 
 ## Assignment description 
 My ```.py```script does the following:
-
-- Load either the **Yoga Poses Dataset**.
-- Train a Logistic Regression model using ```scikit-learn```.
-- Print the classification report to the terminal **and** save the classification report to ```output/lr_report.txt```.  
+- Load the **Yoga Poses Dataset**.
+- Train a CNN classifier using ```tensorflow```.
+- Save the sequential model.
+- Save plots of the loss and accuracy.
+- Print the classification report to the terminal **and** save the classification report.
 
 
 ### Goal and outcome of the assignment
 - The goal of the self assigned project is to demonstrate my skills in Python related to image processing. 
-- The code will provide a couple of scripts which could be re-written and reused on separate data.
+- The code will provide a script which could be re-written and reused on separate data.
 
 
 ## Methods  
@@ -54,6 +55,6 @@ This repository has the following directory structure:
 
 ## Further development 
 Improvements for this code could be to: 
-- Add ```argparse()``` so that the scripts use either **MNIST_784** or **CIFAR_10** based on some input from the user on the command line.
-- Add ```argparse()``` to allow users to define the number and size of the layers in the neural network classifier.
-
+- Use argparse() to allow users to define specific hyperparameters in the script.
+  - This might include e.g. learning rate, batch size, etc.
+- The user should be able to define the names of the output plot and output classification report from the command line.
