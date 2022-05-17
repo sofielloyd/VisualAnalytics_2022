@@ -22,8 +22,9 @@ My ```.py``` script does the following:
 - This assignment is also intended to increase my familiarity of working with ```Tensorflow/Keras```, and with building complex deep learning pipelines.
 - The code will provide a basic outline of a classification pipeline using transfer learning which can be adapted and modified for future tasks.  
 
-## Methods  
 
+## Methods  
+This code provides a deep learning method using ```Tensorflow``` to perform transfer learning and classifing color images from the CIFAR10 dataset.  I first used   a pre-trained CNN to extract features using VGG16. I also uses ```Scikit-Learn``` to print the classification report to the terminal.
 
 
 ## Usage    
