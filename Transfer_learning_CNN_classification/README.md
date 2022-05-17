@@ -23,14 +23,17 @@ My ```.py``` script does the following:
 - The code will provide a basic outline of a classification pipeline using transfer learning which can be adapted and modified for future tasks.  
 
 ## Methods  
-*This section may contain the same as in the "Goals and outcome of the assignment" section? Maybe I should delete that section and re-write it into this section?* 
+
 
 
 ## Usage    
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.
+I have used the **CIFAR_10** dataset which can be loaded from the ```tensorflow``` package. 
+
+You'll also have to install the needed packages, which can be found in ```requirements.txt```.  
+
 The script can be run from the command line by changing the directory to ```src``` and then execute ```python transfer_learning.py```.
 
-**Follow up on this** *You'll also have to  install the dependencies from a requirements.txt*
 
 ### Repo Structure  
 This repository has the following directory structure:  
