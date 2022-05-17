@@ -29,7 +29,7 @@ This script can be run from the command line by changing the directory to ```Ima
 
 ## Usage
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
-I have used the **flower dataset** which can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/).  
+I have used the **flower dataset** which can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/index.html).  
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
