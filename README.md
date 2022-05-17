@@ -19,7 +19,7 @@ Furthermore, the folders contains a ```README.md``` which gives a further descri
 
 - The ```src``` folders contains the code written in ```.py``` scripts. 
 
-- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier. The utils scripts used in this project were developed in-class and can also be found in [this](https://github.com/CDS-AU-DK/cds-visual.git) repository.
+- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier. The utils scripts used in this project were developed in-class and can also be found in [this](https://github.com/CDS-AU-DK/cds-visual.git) repository. 
 
 
 ## Repo Structure  
