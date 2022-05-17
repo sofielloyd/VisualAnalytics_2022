@@ -25,10 +25,10 @@ My ```.py```script does the following:
 
 
 ## Methods  
-- The ```logistic_regression.py``` script uses ```OpenCV´´´ to convert the data to grayscale. I then uses ```Scikit-Learn``` to perform a Logistic Regression model and print the classification report to the terminal.
+- The ```logistic_regression.py``` script uses ```OpenCV``` to convert the data to grayscale. I then uses ```Scikit-Learn``` to perform a Logistic Regression model and print the classification report to the terminal.
 The compare_images.py uses Open-CV to compare the color histogram of three images. I have used the cv2.HISTCMP_CHISQR function that calculates the Chi-Squared distance between two histograms.
 
-- The ```nn_classifier.py``` script uses ```OpenCV´´´ to convert the data to grayscale. I then uses ```Scikit-Learn``` to preprocess the data using LabelBinarizer and fit_transform. ```Scikit-learn´´´ is further used to create a classification report. I futher uses the premade module ```neuralnetwork.py``` to train a Neural Network model. 
+- The ```nn_classifier.py``` script uses ```OpenCV``` to convert the data to grayscale. I then uses ```Scikit-Learn``` to preprocess the data using LabelBinarizer and fit_transform. ```Scikit-learn``` is further used to create a classification report. I futher uses the premade module ```neuralnetwork.py``` to train a Neural Network model. 
 
 
 ## Usage    
