@@ -24,7 +24,9 @@ My ```.py``` script does the following:
 
 
 ## Methods  
-This code provides a deep learning method using ```Tensorflow``` to perform transfer learning and classifing color images from the CIFAR10 dataset.  I first used   a pre-trained CNN to extract features using VGG16. I also uses ```Scikit-Learn``` to print the classification report to the terminal.
+This code provides a deep learning method using ```Tensorflow``` to perform transfer learning and classifing color images from the CIFAR10 dataset.    
+I first used   a pre-trained CNN to extract features using VGG16.   
+I also uses ```Scikit-Learn``` to print the classification report to the terminal.
 
 
 ## Usage    
