@@ -34,7 +34,7 @@ I have used the **CIFAR_10** dataset which can be loaded from the ```tensorflow`
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```.    
 
-The scripts can be run from the command line by changing the directory to ```ImageClassifier``` and then execute ```python src/logistic_regression.py``` *or* ```python src/nn_classifier.py```.  
+The scripts can be run from the command line by changing the directory to ```src``` and then execute ```python logistic_regression.py``` *or* ```python nn_classifier.py```.  
 
 
 ### Repo Structure  
