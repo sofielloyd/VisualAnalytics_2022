@@ -1,10 +1,10 @@
-# Yoga poses CNN classification - Self assigned project
-This repository contains all of the code and data related to my self assigned project for my portfolio exam in the Spring 2022 module **Visual Analytics** which is a part of my tilvalg in Cultural Data Science at Aarhus University.  
+# Yoga poses CNN classification - Self-assigned project
+This repository contains all of the code and data related to my self-assigned project for my portfolio exam in the Spring 2022 module **Visual Analytics** which is a part of my tilvalg in Cultural Data Science at Aarhus University.  
 
 ## Assignment description 
 My ```.py```script does the following:
 
-- Load either the **Yoga Poses Dataset**
+- Load either the **Yoga Poses Dataset**.
 - Train a Logistic Regression model using ```scikit-learn```.
 - Print the classification report to the terminal **and** save the classification report to ```output/lr_report.txt```.  
 
@@ -46,10 +46,10 @@ This repository has the following directory structure:
 
 ## Discussion of results 
 ### Results for ```yoga_poses.py```  
+- The final train accuracy was 0.97 and the final validation accuracy was 0.73
 - The output of this script is the ```report.txt``` which can be found in the output folder.   
-- The accuracy score is 0.31 which is 
-- The precision score is best for ```truck``` and worst for ```cat```.  
-- Overall the precision score is highest on machines and lowest on animals. 
+- The accuracy from the classification report was 0.24.
+- The precision score is best for ```warrior2``` which had a precision score on 0.29, and worst for ```tree``` which had a precision score on 0.17.  
 
 
 ## Further development 
