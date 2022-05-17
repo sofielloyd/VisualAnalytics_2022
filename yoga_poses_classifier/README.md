@@ -4,7 +4,7 @@ This repository contains all of the code and data related to my self assigned pr
 ## Assignment description 
 My ```.py```script does the following:
 
-- Load either the **MNIST_784** data or the **CIFAR_10** data
+- Load either the **Yoga Poses Dataset**
 - Train a Logistic Regression model using ```scikit-learn```.
 - Print the classification report to the terminal **and** save the classification report to ```output/lr_report.txt```.  
 
@@ -16,15 +16,15 @@ My ```.py```script does the following:
 
 ## Methods  
 
-
+due to the stochastic nature of neural networks, running the model may result in better/worse performance than reported here
 
 ## Usage    
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.  
-I have used the **Yoga Poses Dataset** found on Kaggle. The dataset can be found [here](https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset).
+I have used the **Yoga Poses Dataset** found on Kaggle. The dataset can be found [here](https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset). However, I have merged the *TEST* and *TRAIN* directory into one directory called *dataset*. 
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```.    
 
-The scripts can be run from the command line by changing the directory to ```ImageClassifier``` and then execute ```python src/logistic_regression.py``` *or* ```python src/nn_classifier.py```.  
+The scripts can be run from the command line by changing the directory to ```src``` and then execute ```python yoga_poses.py```.
 
 
 ### Repo Structure  
@@ -35,7 +35,6 @@ This repository has the following directory structure:
 | ```input``` | Input data |
 | ```output``` | Output data |
 | ```src``` | Python scripts |
-| ```utils``` | Additional Python functions |
 
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. **CHANGE THIS** *The input data that I have used for the given code is described in the specific assignmentfolder.*
@@ -44,20 +43,12 @@ This repository has the following directory structure:
 
 - The ```src``` folders contains the code written in ```.py``` scripts. 
 
-- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier. The utils scripts used in this project were developed in-class and can also be found in [this](https://github.com/CDS-AU-DK/cds-visual.git) repository.
-
 
 ## Discussion of results 
-### Results for ```logistic_regression.py```  
-- The output of this script is the ```lr_report.txt``` which can be found in the output folder.   
-- The accuracy score is 0.31 which is rather low. 
+### Results for ```yoga_poses.py```  
+- The output of this script is the ```report.txt``` which can be found in the output folder.   
+- The accuracy score is 0.31 which is 
 - The precision score is best for ```truck``` and worst for ```cat```.  
-- Overall the precision score is highest on machines and lowest on animals. 
-
-### Results for ```nn_classifier.py```
-- The output of this script is the ```nn_report.txt``` which can be found in the output folder. 
-- The accuracy score is 0.37 which low and not that much better than the logistic regression. 
-- The precision score is best for ```airplane``` and worst for ```cat```. 
 - Overall the precision score is highest on machines and lowest on animals. 
 
 
