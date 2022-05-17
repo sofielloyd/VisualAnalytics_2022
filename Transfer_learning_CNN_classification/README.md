@@ -28,7 +28,7 @@ My ```.py``` script does the following:
 
 ## Usage    
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.
-The script can be run from the command line by changing the directory to ```Transfer_learning_CNN_classfication``` and then execute ```python src/transfer_learning.py```.
+The script can be run from the command line by changing the directory to ```src``` and then execute ```python transfer_learning.py```.
 
 **Follow up on this** *You'll also have to  install the dependencies from a requirements.txt*
 
@@ -40,7 +40,6 @@ This repository has the following directory structure:
 | ```input``` | Input data |
 | ```output``` | Output data |
 | ```src``` | Python scripts |
-| ```utils``` | Additional Python functions |
 
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. **CHANGE THIS** *The input data that I have used for the given code is described in the specific assignmentfolder.*
@@ -48,8 +47,6 @@ This repository has the following directory structure:
 - The ```output``` folders contains my results and it is this folder that you should save you own results when replicating the code. 
 
 - The ```src``` folders contains the code written in ```.py``` scripts. 
-
-- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier. 
 
 
 ## Discussion of results 
