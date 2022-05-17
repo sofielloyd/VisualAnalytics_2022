@@ -1,0 +1,7 @@
+Requirements (install in terminal): 
+sys
+os
+numpy
+tensorflow
+Open cv2
+Scikit-learn
