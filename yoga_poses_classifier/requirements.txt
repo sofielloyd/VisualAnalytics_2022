@@ -1,0 +1,8 @@
+Requirements (install in terminal): 
+os
+numpy 
+matplotlib.pyplot 
+seaborn 
+tensorflow 
+keras
+scikit-learn
