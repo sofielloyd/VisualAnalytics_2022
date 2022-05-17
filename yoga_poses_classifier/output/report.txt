@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+     downdog       0.24      0.27      0.25        52
+     goddess       0.21      0.19      0.20        68
+       plank       0.27      0.25      0.26        73
+        tree       0.17      0.20      0.18        45
+    warrior2       0.29      0.28      0.29        71
+
+    accuracy                           0.24       309
+   macro avg       0.24      0.24      0.24       309
+weighted avg       0.24      0.24      0.24       309
