@@ -10,7 +10,8 @@ This repository is in active development, with new material being pushed on regu
 
 
 ## Usage
-Every folder in this repository is structred with the following sub-folders; ```input```, ```output```, ```src```, ```utils```. Furthermore, the folders contains a ```README.md``` which gives a further description of the assignment and the current folder, and a ```requirements.txt``` which contain a list of what should be install in order to run the scripts.  
+Every folder in this repository is structred with the following sub-folders; ```input```, ```output```, ```src```. Some of the assignments also contains a ```utils``` folder.   
+Furthermore, the folders contains a ```README.md``` which gives a further description of the assignment and the current folder, and a ```requirements.txt``` which contain a list of what should be install in order to run the scripts.  
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. The input data that I have used for the given code is described in the ```README.md```.
 
@@ -29,5 +30,5 @@ This repository has the following directory structure:
 | ```ImageClassifier``` | Contains code for assignment 2 | ```input```, ```output```, ```src```, ```utils``` |
 | ```ImageSearch``` | Contains code for assignment 1 | ```input```, ```output```, ```src```, ```utils``` |
 | ```Transfer_learning_CNN_classification``` | Contains code for assignment 3 | ```input```, ```output```, ```src```, ```utils``` |
-| ```yoga_poses_classfier``` | Contains code for self-assigned project | ```input```, ```output```, ```src```, ```utils``` |
+| ```yoga_poses_classfier``` | Contains code for self-assigned project | ```input```, ```output```, ```src```|
 
