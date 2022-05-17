@@ -17,8 +17,6 @@ My ```.py```script does the following:
 
 ## Methods  
 
-due to the stochastic nature of neural networks, running the model may result in better/worse performance than reported here
-
 ## Usage    
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.  
 I have used the **Yoga Poses Dataset** found on Kaggle. The dataset can be found [here](https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset).   
