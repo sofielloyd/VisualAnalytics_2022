@@ -1,0 +1,10 @@
+Requirements (install in terminal): 
+opencv-python 
+scikit-learn 
+tensorflow 
+argparse
+sys
+os
+matplotlib
+pandas
+numpy
