@@ -50,7 +50,7 @@ This repository has the following directory structure:
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code.
 
-- The ```output``` folders contains my results and it is this folder that you should save you own results when replicating the code. 
+- The ```output``` folders contains my results and it is this folder that you should save your own results when replicating the code. 
 
 - The ```src``` folders contains the code written in ```.py``` scripts. 
 
