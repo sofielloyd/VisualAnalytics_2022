@@ -65,5 +65,5 @@ This repository has the following directory structure:
 ### Further development 
 Further improvements to my code could be:
 -  Use ```argparse()``` to allow users to define specific hyperparameters in the script.
-  -  This could include learning rate, batch size, etc.
+  - This could include learning rate, batch size, etc.
 - The user should be able to define the names of the output plot and output classification report from the command line.
