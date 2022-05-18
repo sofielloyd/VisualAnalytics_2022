@@ -56,4 +56,14 @@ This repository has the following directory structure:
 
 
 ## Discussion of results 
-*What does my outputs show? What is the results?* 
+### Results
+- The output of this script is the ```report.txt``` which can be found in the output folder.
+- The results of my script gave an accuracy score on 0.57. 
+- It also showed that the label ```ship``` had the highest precision score on 0.76 and the label ```bird``` had the lowest precision score on 0.41. 
+- Overall the precision score is highest on machines and lowest on animals.
+
+### Further development 
+Further improvement to my code could be:
+-  Use ```argparse()``` to allow users to define specific hyperparameters in the script.
+  -  This could include learning rate, batch size, etc.
+- The user should be able to define the names of the output plot and output classification report from the command line.
