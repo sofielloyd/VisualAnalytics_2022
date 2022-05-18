@@ -5,7 +5,7 @@ This repository contains all of the code and data related to the first assignmen
 ## Assignment description 
 Write a small Python program to compare image histograms quantitively using ```Open-CV``` and the other image processing tools.
 
-My ```.py```script should do the following:
+My ```.py```scripts does the following:
 - Take a user-defined image from the folder.
 - Calculate the "distance" between the colour histogram of that image and all of the others.
 - Find which 3 image are most "similar" to the target image.
@@ -20,11 +20,14 @@ from image data.
 
 
 ## Methods  
-The ```compare_images.py``` uses ```Open-CV``` to compare the color histogram of three images. I have used the ```cv2.HISTCMP_CHISQR``` function that calculates the Chi-Squared distance between two histograms.
+### ```compare_images.py```
+- The ```compare_images.py``` uses ```Open-CV``` to compare the color histogram of three images. 
+- I have used the ```cv2.HISTCMP_CHISQR``` function that calculates the Chi-Squared distance between two histograms.
 
-The ```image_search.py``` makes image embeddings using ```NearestNeighbors``` from ```scikit-learn```. I have used the ```distances, indices = neighbors.kneighbors()``` which calulates the cosine distance to find the image which are closest to the target image.  
-I have added a parser for this script and made it possible for the user to enter either a *single filename* or a *directory* on the command line.   
-This script can be run from the command line by changing the directory to ```ImageSearch``` and then execute ```python src/ImageSearch.py -fn *filename*``` for running the script on a single file or ```python src/ImageSearch.py -d *path to directory*``` for running the script on a directory.   
+### ```image_search.py```
+- The ```image_search.py``` makes image embeddings using ```NearestNeighbors``` from ```scikit-learn```. 
+- I have used the ```distances, indices = neighbors.kneighbors()``` which calulates the cosine distance to find the image which are closest to the target image.  
+- I have added a parser for this script and made it possible for the user to enter either a *single filename* or a *directory* on the command line.      
 
 
 ## Usage
@@ -61,11 +64,11 @@ This repository has the following directory structure:
 
 ## Discussion of results 
 ### Results for ```compare_images.py```
-- The output of this script is the results of the three scores.   
+- The output of this script is the results of the three distance scores.   
 
 ### Results for ```image_search.py```
-- If the user runs the code for a single file, the output of this script will be a ```.csv``` file with the filename of the targetimage and the three most similar images, and two images; one with the target image and one with the three most similar images.    
-The filenames for these output files is ```*filename*_similar_images.csv```, ```*filename*_similar_images.png``` and ```*filename*_target_image.png```.   
+- If the user runs the code for a single file, the output of this script will be a ```.csv``` file with the filename of the target image and the three most similar images, and two images; one with the target image with the distance score and one with the three most similar images.    
+The filenames for these output files is ```*filename*_similar_images.csv```, ```*filename*_similar_images.png``` and ```*filename*_target_image.png```.
 
 - If the user runs the code for the whole directory, the output of this script will be a ```.csv``` file with every filename and the three most similar images to every images.   
 The file is called ```similar_images.csv```.
