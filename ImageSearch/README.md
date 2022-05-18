@@ -53,7 +53,7 @@ This repository has the following directory structure:
 | ```utils``` | Additional Python functions |
 
 
-- The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. **CHANGE THIS** *The input data that I have used for the given code is described in the specific assignmentfolder.*
+- The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code.
 
 - The ```output``` folders contains my results and it is this folder that you should save you own results when replicating the code. 
 
@@ -75,8 +75,8 @@ The file is called ```similar_images.csv```.
 - These results will be saved to the ```output``` folder.  
 
 ### Further development 
-An improvement of this code could be to save the images as one image with the target image and the three similar images.  
-Another improvement could be to save the distance score from the ```kneighbors``` function in the ```similar_images.csv``` with the filenames, like this: 
+- An improvement of this code could be to save the images as one image with the target image and the three similar images.  
+- Another improvement could be to save the distance score from the ```kneighbors``` function in the ```similar_images.csv``` with the filenames, like this: 
 
 | **Target_image** | **First_similar** | **First_similar_distance** | **Second_similar** | **Second_similar_distance** | **Third_similar** | **Third_similar_distance** |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
