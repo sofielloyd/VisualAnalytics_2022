@@ -66,6 +66,10 @@ This repository has the following directory structure:
 ### Results for ```compare_images.py```
 - The output of this script is the results of the three distance scores.   
 
+#### Futher development  
+- This code could be improved by adding ```argparse()``` so that user can chose from the command line which images should be used for the comparison. 
+
+
 ### Results for ```image_search.py```
 - If the user runs the code for a single file, the output of this script will be a ```.csv``` file with the filename of the target image and the three most similar images, and two images; one with the target image with the distance score and one with the three most similar images.    
 The filenames for these output files is ```*filename*_similar_images.csv```, ```*filename*_similar_images.png``` and ```*filename*_target_image.png```.
@@ -74,7 +78,7 @@ The filenames for these output files is ```*filename*_similar_images.csv```, ```
 The file is called ```similar_images.csv```.
 - These results will be saved to the ```output``` folder.  
 
-### Further development 
+#### Further development 
 - An improvement of this code could be to save the images as one image with the target image and the three similar images.  
 - Another improvement could be to save the distance score from the ```kneighbors``` function in the ```similar_images.csv``` with the filenames, like this: 
 
