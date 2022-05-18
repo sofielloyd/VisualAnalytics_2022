@@ -72,7 +72,7 @@ This repository has the following directory structure:
 - Overall the precision score is highest on machines and lowest on animals. 
 
 
-## Further development 
+### Further development 
 Improvements for this code could be to: 
 - Add ```argparse()``` so that the scripts use either **MNIST_784** or **CIFAR_10** based on some input from the user on the command line.
 - Add ```argparse()``` to allow users to define the number and size of the layers in the neural network classifier.
