@@ -1,6 +1,7 @@
 # Yoga poses CNN classification - Self-assigned project
 This repository contains all of the code and data related to my self-assigned project for my portfolio exam in the Spring 2022 module **Visual Analytics** which is a part of my tilvalg in Cultural Data Science at Aarhus University.  
 
+
 ## Assignment description 
 My ```.py```script does the following:
 - Load the **Yoga Poses Dataset**.
@@ -16,6 +17,12 @@ My ```.py```script does the following:
 
 
 ## Methods  
+- First I uses ```image_dataset_from_directory``` from ```Tensorflow``` to load my data.
+- Second I uses ```matplotlib``` to plot the loss and accuracy and save it as an ```.png``` file. 
+- Third I uses ```Tensorflow``` to create a sequential model that can be used to transfer learning and CNN classification.
+- Fourth I uses ```model.predict``` from ```keras``` to predict the yoga poses. This I plot into a classification report. 
+- Fifth I uses ```model.evaluate``` from ```keras``` to find the final loss and accuracy score for the train and validation dataset.
+
 
 ## Usage    
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.  
@@ -39,17 +46,22 @@ This repository has the following directory structure:
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code.
 
-- The ```output``` folders contains my results and it is this folder that you should save you own results when replicating the code. 
+- The ```output``` folders contains my results and it is this folder that you should save your own results when replicating the code. 
 
 - The ```src``` folders contains the code written in ```.py``` scripts. 
 
 
 ## Discussion of results 
 ### Results for ```yoga_poses.py```  
-- The final train accuracy was 0.97 and the final validation accuracy was 0.73
+- The final train accuracy was **0.97** and the final validation accuracy was **0.73**.
 - The output of this script is the ```report.txt``` which can be found in the output folder.   
-- The accuracy from the classification report was 0.24.
-- The precision score is best for ```warrior2``` which had a precision score on 0.29, and worst for ```tree``` which had a precision score on 0.17.  
+- The accuracy from the classification report was **0.24**.
+  - The accuracy score in the classification report is lower than the final train and validation accuracy. 
+  - I have used ```model.predict``` for the results in the classification report and ```model.evaluate``` for the final scores.
+  - The low accuracy in the classification report is because it takes the valdiation data as "new" data and that causes the low score. 
+  - The scores for the final train and validation scores is builded on the data that has already being trained. 
+- The precision score is best for ```warrior2``` which had a precision score on **0.29**, and worst for ```tree``` which had a precision score on **0.17**.  
+- It should further be noticed that due to the stochastic nature of neural networks, running the model again may result in better/worse performance than reported here. 
 
 
 ## Further development 
