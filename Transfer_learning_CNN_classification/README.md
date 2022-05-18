@@ -25,7 +25,7 @@ My ```.py``` script does the following:
 
 ## Methods  
 This code provides a deep learning method using ```Tensorflow``` to perform transfer learning and classifing color images from the CIFAR10 dataset.    
-I first used   a pre-trained CNN to extract features using VGG16.   
+I first used a pre-trained CNN to extract features using VGG16.   
 I then used ```Scikit-Learn``` to print the classification report to the terminal.
 
 
@@ -48,7 +48,7 @@ This repository has the following directory structure:
 | ```src``` | Python scripts |
 
 
-- The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. **CHANGE THIS** *The input data that I have used for the given code is described in the specific assignmentfolder.*
+- The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code.
 
 - The ```output``` folders contains my results and it is this folder that you should save you own results when replicating the code. 
 
