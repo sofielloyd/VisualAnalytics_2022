@@ -54,7 +54,8 @@ This repository has the following directory structure:
 ## Discussion of results 
 ### Results for ```yoga_poses.py```  
 - The final train accuracy was **0.97** and the final validation accuracy was **0.73**.
-- The output of this script is the ```report.txt``` which can be found in the output folder.   
+- The output of this script is the ```report.txt``` which can be found in the ```output``` folder.   
+  - The ```output``` folder further contains ```sequential_model.png``` which is an image of the model, and ```trained_model.png``` which is a plot for the loss and accuracy curve for the train and validation data.
 - The accuracy from the classification report was **0.24**.
   - The accuracy score in the classification report is lower than the final train and validation accuracy. 
   - I have used ```model.predict``` for the results in the classification report and ```model.evaluate``` for the final scores.
