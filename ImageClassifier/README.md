@@ -1,14 +1,13 @@
 # Image classifier benchmark scripts - Assignment 2
-This repository contains all of the code and data related to the second assignment for my portfolio exam in the Spring 2022 module **Visual Analytics** which is a part 
-of my tilvalg in Cultural Data Science at Aarhus University.  
+This repository contains all of the code and data related to the second assignment for my portfolio exam in the Spring 2022 module **Visual Analytics** which is a part of my tilvalg in Cultural Data Science at Aarhus University.  
 
 ## Assignment description 
 Take the classifier pipelines we covered in lecture 7 and turn them into *two separate ```.py``` scripts*.  
 
-My ```.py```script does the following:
+My ```.py```scripts does the following:
 
 - Make one script should be called ```logistic_regression.py```.
-  - Load either the **MNIST_784** data or the **CIFAR_10** data
+  - Load either the **MNIST_784** data or the **CIFAR_10** data.
   - Train a Logistic Regression model using ```scikit-learn```.
   - Print the classification report to the terminal **and** save the classification report to ```output/lr_report.txt```.  
  
@@ -26,7 +25,6 @@ My ```.py```script does the following:
 
 ## Methods  
 - The ```logistic_regression.py``` script uses ```OpenCV``` to convert the data to grayscale. I then uses ```Scikit-Learn``` to perform a Logistic Regression model and print the classification report to the terminal.
-The compare_images.py uses Open-CV to compare the color histogram of three images. I have used the cv2.HISTCMP_CHISQR function that calculates the Chi-Squared distance between two histograms.
 
 - The ```nn_classifier.py``` script uses ```OpenCV``` to convert the data to grayscale. I then uses ```Scikit-Learn``` to preprocess the data using LabelBinarizer and fit_transform. ```Scikit-learn``` is further used to create a classification report. I futher uses the premade module ```neuralnetwork.py``` to train a Neural Network model. 
 
